@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > p {                         /*Parágrafo como filho da Div*/
+    display: none;                /*Ocultar texto*/
+}
+
+div:hover > p {                   /*Parágrafo como filho do DivHover*/
+    display: block;               /*disparar o que estava bloqueado*/
+    color: white;
+    background-color: red;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+div:hover {                      /*quando passar o mouse em cima...*/
+    color: red;
+}
