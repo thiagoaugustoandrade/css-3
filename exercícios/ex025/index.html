@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #nome , #sobrenome{
+            background-color: rgb(217, 216, 214);
+            border-radius: 5px;
+            padding: 5px; 
+        }
+
+        #enviar{
+            width: 100px;
+            height: 35px;
+            border-radius: 5px;
+            border: 0;
+            background-color: rgb(0, 102, 255);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando o primeiro formulário</h1>
+    <form action="">
+        <p>Nome: <input type="text" name="nome" id="nome"></p>
+        <p>Sobrenome: <input type="text" name="Sobrenome" id="sobrenome"></p>
+        <input id="enviar" type="submit" value="Enviar">
+    </form>
+</body>
+</html>
